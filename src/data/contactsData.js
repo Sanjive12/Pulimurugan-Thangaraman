@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'pulimuruganbtechit@gmail.com',
+    email: 'pulimuruganthangaraman@gmail.com',
     phone: '+91 9360190962',
     address: 'Elandhai Kulam, Periyour, Kamuthi, Tamil Nadu, India - 623 708 ',
     github: 'https://github.com/Sanjive12',

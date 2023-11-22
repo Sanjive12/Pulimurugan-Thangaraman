@@ -113,7 +113,7 @@ const Contacts = () => {
 
     if (name && email && message) {
       if (isEmail(email)) {
-        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
+          emailjs.sendForm('service_z9galyu', 'template_399qub9', form.current, '5PqUzHOMe2-3N6D9y')
           .then((result) => {
             console.log('success');
             setSuccess(true);
